@@ -1,0 +1,2 @@
+module MilktimesHelper
+end

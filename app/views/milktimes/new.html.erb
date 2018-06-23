@@ -1,0 +1,50 @@
+<div id="wrapper">
+  <header>
+    <div class="clearfix">
+    <h2 class="title">Milk time</h2>
+      <div class="mbutton">
+        <a href="/milktimes" class="myButton">TOPへ</a>
+      </div>
+    </div>
+  </header>
+
+
+  <div id="container">
+      <h3>入力しよう！</h3>
+      <%= form_tag('/milktimes', method: :post) do %>
+      
+        <div class="cp_ipselect cp_sl05">
+          <select class="form-control" type="string" name="milk">
+            <option hidden>ミルクの量</option>
+            <option>80ml</option>
+            <option>90ml</option>
+            <option>100ml</option>
+            <option>110ml</option>
+            <option>120ml</option>
+            <option>130ml</option>
+            <option >140ml</option>
+          </select>
+        </div>
+
+        <div class="cp_ipselect cp_sl05">
+          <select class="form-control" type="string" name="nappy">
+            <option hidden>おむつの交換</option>
+            <option>交換無し</option>
+            <option>交換（おしっこ）</option>
+            <option>交換（おならうんち）</option>
+            <option>交換（うんち）</option>
+          </select>
+        </div>
+
+        <div class="comments">
+          <textarea name="text" placeholder="コメントがあれば入力" rows="3"></textarea>
+        </div>
+
+        <div class="btnbox">
+          <input class="btn" type="submit" value="入力完了">
+        </div>
+   
+      <% end %>
+      
+  </div>
+</div>

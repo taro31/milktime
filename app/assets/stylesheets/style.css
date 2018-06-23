@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width: 100%;
+}
+
+/*----------------------------------------------------------------------*/
+#container {
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  background: #f5d7ef;
+}
+#container #column1 {/*カラム1*/
+  /*background: #f5d7ef;*/
+}
+
+  #container,
+  #container #column1 {
+    padding: 10px;
+  }
+  #container p .txt-pc {
+    display: none;
+  }
+/*----------------------------------------------------------------------*/
+
+
+@media (min-width: 769px) {
+header {
+  min-width: 1200px;
+  }
+  #container {
+    width: 1200px;
+  }
+  #container #column1 {/*カラム1*/
+    float: left;
+    width: 300px;
+    box-sizing: border-box;
+  }
+
+  #container p .txt-pc {
+    display: inline-block;
+  }
+  #container p .txt-sp {
+    display: none;
+  }
+
+/* ** */}
+
+
+header {
+  background-color: #DB7093;
+  height: 40px;
+}
+h2 {
+  padding: 0;
+  font-size: 150%;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 1px 0px 0px 15px;
+  float: left;
+}
+/*----------------------------------------------------------------------*/
+.mbutton {
+  float: right;
+  margin: 5px 15px 0px 0px;
+}
+/*----------------------------------------------------------------------*/
+.myButton {
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #db7093;
+	display:inline-block;
+	cursor:pointer;
+	color:#db7093;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:6px 9px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*----------------------------------------------------------------------*/
+#column1 {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #db7093;
+	background-color:#ffffff;
+	margin-bottom: 10px;
+	
+	/*display:inline-block;*/
+	/*padding:6px 9px;*/
+}
+.baby-icon {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+/*----------------------------------------------------------------------*/
+.kotei {
+  padding: 0 0 0 60px;
+}
+p {
+  display: inline-block;
+  color:#db7093;
+  font-size:14px;
+}
+/*----------------------------------------------------------------------*/
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+  font-weight: bold;
+  color: #DB7093;
+  text-align: center;
+}
+/*----------------------------------------------------------------------*/
+.cp_ipselect {
+overflow: hidden;
+width: 90%;
+margin: 2em auto;
+text-align: center;
+}
+.cp_ipselect select {
+width: 100%;
+padding-right: 1em;
+text-indent: 0.01px;
+text-overflow: ellipsis;
+border: none;
+outline: none;
+background: transparent;
+background-image: none;
+box-shadow: none;
+-webkit-appearance: none;
+appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+display: none;
+}
+.cp_ipselect.cp_sl05 {
+position: relative;
+border-radius: 2px;
+border-radius: 50px;
+background: #DB7093;
+}
+.cp_ipselect.cp_sl05::before {
+position: absolute;
+top: 0.8em;
+right: 0.8em;
+width: 0;
+height: 0;
+padding: 0;
+content: '';
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-top: 6px solid #ffffff;
+pointer-events: none;
+}
+.cp_ipselect.cp_sl05 select {
+padding: 8px 38px 8px 8px;
+color: #ffffff;
+}
+/*----------------------------------------------------------------------*/
+.comments {
+  text-align: center;
+}
+textarea {
+  width: 90%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.btnbox {
+  text-align: center;
+  width: 95%;
+  margin: 30px 0 2000px 0;
+}
+.btn {
+  float: right;
+  background: #DB7093;
+  padding: 3px 8px 3px 8px;
+  color: #ffffff;
+}
+.btn2 {
+  font-size: 100%;
+  font-weight: bold;
+  color: #DB7093;
+}
+
+
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
