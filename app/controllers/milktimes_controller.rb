@@ -8,6 +8,7 @@ class MilktimesController < ApplicationController
     
     def create
         Milkt.create(milkt_params)
+        redirect_to action: :index
     end
     
     private
