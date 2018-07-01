@@ -18,8 +18,8 @@
           <div><p>分　量：</p><p><%= milkt.milk %></p></div>
           <div><p>時　間：</p><p><%= milkt.created_at %></p></div>
           <div><p>おむつ：</p><p><%= milkt.nappy %></p></div>
-          <p>その他：</p>
-          <%= simple_format(milkt.text) %>
+          <div class="kotei-text"><p>その他：</p></div>
+          <div class="kotei-text"><%= simple_format(milkt.text) %></div>
         </div>
       </div>
   </div>
