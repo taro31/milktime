@@ -28,14 +28,14 @@
 
 @media (min-width: 769px) {
 header {
-  min-width: 1200px;
+  min-width: 12000px;
   }
   #container {
-    width: 1200px;
+    width: 12000px;
   }
   #container #column1 {/*カラム1*/
     float: left;
-    width: 300px;
+    width: 12000px;
     box-sizing: border-box;
   }
 
